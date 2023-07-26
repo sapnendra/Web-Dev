@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      :root {
+        /* custom variable */
+        --primary-color: black;
+        --custom-width: 330px;
+        /* use entire in this code */
+      }
+
+      .container {
+        background-color: beige;
+        height: 950px;
+        border: 2px solid var(--primary-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box {
+        /* custom variable */
+        --primary-color: black;
+        --custom-width: 330px;
+        /* use only in this scope */
+
+        background-color: white;
+        width: 400px;
+        height: 360px;
+        border: 2px solid var(--primary-color);
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+        /* normal method  x-offset y-offset blur-effect color */
+        box-shadow: 10px 10px 3px gray;
+        /* box-shadow: 10px 10px 3px gray;   with blur  x-offset y-offset radious color */
+        /* box-shadow: 10px 10px 5px 25px gray;  with blur & spread-blur  x-offset y-offset radious spread-radious color */
+        /* box-shadow: inset 10px 15px gray; shadow inside the box */
+        /* box-shadow: 10px 10px red, 15px 15px gray, 20px 20px black, 25px 25px green; multiple color shadow */
+      }
+
+      #head1 {
+        text-shadow: 3px 4px rgb(223, 174, 15), 7px 8px white, 7px 8px green;
+        /* text-shadow: 7px 8px 1px white;   x-offset y-offset blur-effect color */
+        /* text-shadow: yellow 12px 13px 1px;   color x-offset y-offset blur-effect */
+        /* text-shadow: white 12px 13px;  color x-offset y-offset */
+        /* text-shadow: 5px 6px red;   x-offset y-offset color */
+      }
+
+      #para1 {
+        text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+        color: whitesmoke;
+        font: 1.5em Georgia, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="./logoCodeHelp.svg" alt="Logo CodeHelp" />
+        <h2 id="head1">Welcome to CodeHelp</h2>
+        <p id="para1">
+          This channel is very useful for computer science engineer, as they
+          facilitate us to learn more effectively, in quality and quantity
+          without any cost. Babbar Bhaiya's method of teaching is very easy to
+          understand.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

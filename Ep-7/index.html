@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px">
+        <thead>
+            <th style="background-color: aqua;" colspan="4">Student details</th>
+        </thead>
+        <thead style="background-color: bisque;">
+            <th style="background-color: aqua;">Student Id</th>
+            <th>Student Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+
+        <!-- tbody>(tr>td*3)*4 -->
+        <tbody style="background-color: bisque;">
+            <tr>
+                <th style="background-color: aqua;">1234</th>
+                <td>Sapnendra</td>
+                <td>Male</td>
+                <td rowspan="2">19</td>
+            </tr>
+            <tr>
+                <th style="background-color: aqua;">1234</td>
+                <td>Anshika</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <th style="background-color: aqua;">1234</th>
+                <td>Love</td>
+                <td>male</td>
+                <td rowspan="2">18</td>
+            </tr>
+            <tr>
+                <th style="background-color: aqua;">1234</th>
+                <td>Babbar</td>
+                <td>male</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<br>
+    <table style="background-color: aqua;" border="1px">
+        <theah>
+            <th>Sr. No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </theah>
+        <tbody style="background-color: bisque;">
+            <tr>
+                <td style="background-color: aqua;">1.</td>
+                <td>Bill-Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$10,000</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+            <tr>
+                <td style="background-color: aqua;">2.</td>
+                <td>Steeve Job</td>
+                <td>Founder Apple</td>
+                <td>$15,000</td>
+                
+            </tr>
+            <tr>
+                <td style="background-color: aqua;">3.</td>
+                <td>Larry Page</td>
+                <td>Founder google</td>
+                <td>$20,0000</td>
+               
+            </tr>
+            <tr>
+                <td style="background-color: aqua;">4.</td>
+                <td>Mark Juckeberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+                
+            </tr>
+        </tbody>
+        <tfoot style="background-color: chocolate;">
+            <tr>
+                <th colspan="3">Total Expense:</th>
+                <th>$1,00,0000</th>
+                <th>All Company Exp</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
