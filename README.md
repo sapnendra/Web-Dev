@@ -3,7 +3,7 @@ How are you?
 
 I hope you guys making code.
 
-This is one folder where I practice web-development
+This is a folder where I practice web-development
 every time and it will update on the daily basis.
 
 👋 Hi, I’m @Sapnendra
